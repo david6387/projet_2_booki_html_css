@@ -5,10 +5,15 @@ body {
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
 }
 
-ul {
+header ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #0065FC;
 }
 
 footer {

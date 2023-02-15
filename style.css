@@ -19,3 +19,8 @@ header ul {
 footer {
     background-color: #F2F2F2;
 }
+
+
+footer ul {
+    list-style-type: none;
+}

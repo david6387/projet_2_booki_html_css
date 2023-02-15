@@ -25,3 +25,23 @@ footer {
 footer ul {
     list-style-type: none;
 }
+
+form {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+input {
+    border: none;
+}
+
+button {
+    border: none;
+    background: #0065FC;
+    color: white;
+}
+
+label {
+    background: #F2F2F2;
+}

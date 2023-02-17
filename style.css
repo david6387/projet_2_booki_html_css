@@ -2,6 +2,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+i:not(.fa-location-dot) {
+    color: #0065FC;
+}
+
 nav {
     display: flex;
     flex-direction: row;

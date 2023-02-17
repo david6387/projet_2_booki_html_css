@@ -54,6 +54,10 @@ header ul {
     padding-right: 10px;
 }
 
+.filters-button:hover {
+    background-color: #DEEBFF;
+}
+
 footer {
     background-color: #F2F2F2;
 }

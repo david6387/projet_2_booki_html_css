@@ -101,6 +101,16 @@ label {
     padding-left: 40px;
 }
 
+#accommodations {
+    height: 626px;
+    width: 880px;
+}
+
+#popular-accommodations {
+    width: 420px;
+    height: 625px;
+}
+
 footer {
     background-color: #F2F2F2;
 }

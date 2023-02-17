@@ -10,6 +10,11 @@ nav {
     margin: auto;
 }
 
+nav img {
+    width: 61.09px;
+    height: 19px;
+}
+
 header ul {
     list-style-type: none;
     display: flex;

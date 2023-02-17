@@ -88,6 +88,19 @@ label {
     border-radius: 50px;
 }
 
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+#accommodations,
+#popular-accommodations {
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding-top: 42px;
+    padding-left: 40px;
+}
+
 footer {
     background-color: #F2F2F2;
 }

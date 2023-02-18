@@ -44,25 +44,28 @@ form {
     align-items: center;
 }
 
-input,
-label {
+
+.form-logo-entryfield {}
+
+input {
     border: 1px solid #F2F2F2;
+    padding: 14px 118px 14px 67px;
     border-radius: 15px;
-    padding: 15px 16px;
+
 }
 
+label {
+    padding: 16px 18px 15px 18px;
+    background: #F2F2F2;
+}
 
 button {
     border: none;
     background: #0065FC;
     color: white;
     border-radius: 0px 15px 15px 0px;
-    padding: 15px 16px;
+    padding: 14px 16px;
     gap: 10px;
-}
-
-label {
-    background: #F2F2F2;
 }
 
 .container-filters {

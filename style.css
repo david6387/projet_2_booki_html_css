@@ -74,6 +74,7 @@ label {
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     padding: 14.58px;
+    margin-left: 50px;
 }
 
 .filters-button i {
@@ -89,16 +90,16 @@ label {
     align-items: center;
 }
 
-.container-info p {
-    padding-left: 11px;
-}
-
 .fa-info {
     border: 1px solid#D9D9D9;
     box-sizing: border-box;
     width: 24px;
     height: 24px;
     border-radius: 50px;
+}
+
+.container-info p {
+    padding-left: 11px;
 }
 
 .offers {
@@ -136,4 +137,5 @@ footer ul {
 footer a {
     text-decoration: none;
     color: black;
+
 }

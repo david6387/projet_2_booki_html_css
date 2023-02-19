@@ -19,6 +19,7 @@ nav img {
     width: 61.09px;
     height: 19px;
     padding-top: 44px;
+    padding-left: 55px;
 }
 
 header a {
@@ -37,6 +38,10 @@ header ul {
     display: flex;
     flex-direction: row;
     padding-top: 48px;
+}
+
+.introduction {
+    padding-left: 55px;
 }
 
 form {
@@ -120,15 +125,32 @@ button {
 #accommodations {
     height: 626px;
     width: 880px;
+    margin-left: 50px;
 }
 
 #popular-accommodations {
     width: 420px;
     height: 625px;
+    margin-right: 50px;
+}
+
+#activities {
+    padding-left: 50px;
 }
 
 footer {
     background-color: #F2F2F2;
+    margin-left: 48px;
+    margin-right: 53px;
+}
+
+footer h3 {
+    padding-top: 45px;
+}
+
+footer h3,
+li {
+    padding-left: 70px;
 }
 
 footer ul {

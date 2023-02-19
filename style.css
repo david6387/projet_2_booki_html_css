@@ -136,6 +136,24 @@ button {
     margin-right: 50px;
 }
 
+.accommodations-pics {
+    height: 199px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+
+}
+
+#accommodations img {
+    height: 124px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
 #activities {
     padding-left: 50px;
 }

@@ -84,7 +84,7 @@ label {
     background: #F2F2F2;
 }
 
-button {
+#button-search {
     border: none;
     background: #0065FC;
     color: white;
@@ -98,18 +98,18 @@ button {
     align-items: center;
 }
 
-.filters-button {
+.button-filters {
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     padding: 14.58px;
     margin-left: 50px;
 }
 
-.filters-button i {
+.button-filters i {
     padding-right: 10px;
 }
 
-.filters-button:hover {
+.button-filters:hover {
     background-color: #DEEBFF;
 }
 

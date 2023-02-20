@@ -1,5 +1,12 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1390px;
+    padding: 0 50px;
+    margin: 0 auto;
 }
 
 i:not(.fa-location-dot) {
@@ -11,33 +18,50 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
-
+    padding: 0 55px;
+    margin: 44px auto 0px;
 }
 
 nav img {
     width: 61.09px;
     height: 19px;
-    padding-top: 44px;
-    padding-left: 55px;
 }
 
 header a {
     text-decoration: none;
     color: black;
-    padding: 67px;
+    position: relative;
+    padding: 0 23px;
+}
+
+header li header li {
+    position: relative;
+    display: block;
+    text-align: center;
 }
 
 header a:hover {
     color: #0065FC;
-    border-top: 2px solid #0065FC;
+}
+
+header a:hover::before {
+    content: '';
+    background: #0065FC;
+    height: 2px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    padding-top: 48px;
+    position: relative;
+    gap: 100px;
 }
 
 .introduction {
@@ -48,9 +72,6 @@ form {
     display: flex;
     align-items: center;
 }
-
-
-.form-logo-entryfield {}
 
 input {
     border: 1px solid #F2F2F2;
@@ -105,6 +126,12 @@ button {
 
 }
 
+.fa-info::before {
+    left: 9px;
+    top: 3px;
+    position: relative;
+}
+
 .container-info p {
     padding-left: 11px;
 }
@@ -112,22 +139,30 @@ button {
 .offers {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 #accommodations,
 #popular-accommodations {
     background: #F2F2F2;
     border-radius: 20px;
-    padding-top: 42px;
-    padding-left: 40px;
+    padding: 42px 40px;
     margin-top: 39px;
     margin-bottom: 60px;
 }
 
 #accommodations {
-    height: 626px;
     width: 880px;
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accommodations-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
 }
 
 #popular-accommodations {
@@ -166,11 +201,6 @@ footer {
 
 footer h3 {
     padding-top: 45px;
-}
-
-footer h3,
-li {
-    padding-left: 70px;
 }
 
 footer ul {

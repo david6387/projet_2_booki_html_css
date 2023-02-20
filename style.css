@@ -98,6 +98,11 @@ input::placeholder {
     gap: 10px;
 }
 
+#button-search i {
+    display: none;
+    color: white;
+}
+
 .container-filters {
     display: flex;
     align-items: center;

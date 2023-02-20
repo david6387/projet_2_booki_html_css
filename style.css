@@ -75,17 +75,18 @@ form {
 
 input {
     border: 1px solid #F2F2F2;
-    padding: 14px 118px 14px 67px;
-    border-radius: 15px;
+    padding: 13px 72px 13px 17px;
+
 }
 
 input::placeholder {
     color: black;
 }
 
-label {
-    padding: 16px 18px 15px 18px;
+.location-dot {
+    padding: 12.3px 16px;
     background: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
 }
 
 #button-search {

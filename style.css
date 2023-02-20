@@ -79,6 +79,10 @@ input {
     border-radius: 15px;
 }
 
+input::placeholder {
+    color: black;
+}
+
 label {
     padding: 16px 18px 15px 18px;
     background: #F2F2F2;

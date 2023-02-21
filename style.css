@@ -148,6 +148,12 @@ input::placeholder {
     padding-left: 11px;
 }
 
+
+#grey-star {
+    color: #F2F2F2;
+}
+
+
 .offers {
     display: flex;
     justify-content: space-between;

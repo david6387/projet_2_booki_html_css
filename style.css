@@ -176,17 +176,11 @@ input::placeholder {
     flex-direction: column;
 }
 
-.accommodations-list {
+.accommodations-cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 25px;
-}
-
-#popular-accommodations {
-    width: 420px;
-    height: 625px;
-    margin-right: 50px;
+    gap: 29px;
 }
 
 .accommodations-pics {
@@ -195,7 +189,21 @@ input::placeholder {
     left: 0px;
     top: 0px;
     border-radius: 20px;
+    border: 5px solid white;
+    background: white;
+}
 
+.accommodations-pics h3,
+.accommodations-pics p,
+.accommodations-pics div {
+
+    margin: 0%;
+    padding-left: 10px;
+}
+
+.accommodations-cards a {
+    text-decoration: none;
+    color: black;
 }
 
 #accommodations img {
@@ -205,6 +213,12 @@ input::placeholder {
     top: 0px;
     border-radius: 20px 20px 0px 0px;
 
+}
+
+#popular-accommodations {
+    width: 420px;
+    height: 625px;
+    margin-right: 50px;
 }
 
 #activities {

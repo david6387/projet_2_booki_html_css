@@ -218,6 +218,12 @@ input::placeholder {
     margin-right: 50px;
 }
 
+#first-line-sponsored {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
 #activities {
     padding-left: 50px;
 }

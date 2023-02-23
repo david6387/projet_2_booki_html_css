@@ -130,19 +130,16 @@ input::placeholder {
     align-items: center;
 }
 
-.fa-info {
+.info-icon {
     border: 1px solid #D9D9D9;
     width: 24px;
     height: 24px;
     border-radius: 50px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.fa-info::before {
-    left: 9px;
-    top: 3px;
-    position: relative;
-}
 
 .container-info p {
     padding-left: 11px;

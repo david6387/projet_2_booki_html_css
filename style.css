@@ -13,6 +13,8 @@ i:not(.fa-location-dot) {
     color: #0065FC;
 }
 
+/*  */
+
 nav {
     display: flex;
     flex-direction: row;
@@ -64,9 +66,13 @@ header ul {
     gap: 100px;
 }
 
-.introduction {
+/*  */
+
+#introduction {
     padding-left: 55px;
 }
+
+/*  */
 
 form {
     display: flex;
@@ -104,7 +110,9 @@ input::placeholder {
     color: white;
 }
 
-.container-filters {
+/*  */
+
+#container-filters {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -126,12 +134,14 @@ input::placeholder {
     background-color: #DEEBFF;
 }
 
-.container-info {
+/*  */
+
+#container-info {
     display: flex;
     align-items: center;
 }
 
-.info-icon {
+#container-info div {
     border: 1px solid #D9D9D9;
     width: 24px;
     height: 24px;
@@ -141,15 +151,13 @@ input::placeholder {
     justify-content: center;
 }
 
-.container-info p {
+#container-info p {
     padding-left: 11px;
 }
 
-#grey-star {
-    color: #F2F2F2;
-}
+/*  */
 
-.offers {
+#offers {
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -164,6 +172,12 @@ input::placeholder {
     margin-bottom: 60px;
 }
 
+#grey-star {
+    color: #F2F2F2;
+}
+
+/*  */
+
 #accommodations {
     width: 880px;
     margin-left: 50px;
@@ -171,7 +185,7 @@ input::placeholder {
     flex-direction: column;
 }
 
-.accommodations-cards {
+#accommodations-cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -196,7 +210,7 @@ input::placeholder {
     padding-left: 10px;
 }
 
-.accommodations-cards a {
+#accommodations-cards a {
     text-decoration: none;
     color: black;
 }
@@ -208,6 +222,8 @@ input::placeholder {
     top: 0px;
     border-radius: 20px 20px 0px 0px;
 }
+
+/*  */
 
 #popular-accommodations {
     width: 420px;
@@ -255,6 +271,8 @@ input::placeholder {
     border-radius: 20px 0px 0px 20px;
 }
 
+/*  */
+
 #activities {
     padding-left: 50px;
     width: 1337px;
@@ -284,6 +302,8 @@ input::placeholder {
     border-radius: 20px 20px 0px 0px;
 }
 
+/*  */
+
 footer {
     background-color: #F2F2F2;
     margin-left: 48px;
@@ -303,3 +323,20 @@ footer a {
     text-decoration: none;
     color: black;
 }
+
+/* media queries*/
+
+
+
+
+
+
+
+/*Medium devices (tablets, less than .....px)*/
+
+
+
+
+
+
+/* Small devices (mobile phones, less than .....px)*/

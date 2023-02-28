@@ -179,7 +179,7 @@ input::placeholder {
     margin-bottom: 60px;
 }
 
-#grey-star {
+i.grey-star {
     color: #F2F2F2;
 }
 
@@ -201,7 +201,7 @@ input::placeholder {
 
 .accommodations-pics {
     height: 199px;
-    width: 246px;
+    width: 219px;
     left: 0px;
     top: 0px;
     border-radius: 20px;
@@ -325,6 +325,7 @@ footer {
     background-color: #F2F2F2;
     margin-left: 48px;
     margin-right: 53px;
+    width: 1339px;
 }
 
 footer h3 {

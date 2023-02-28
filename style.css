@@ -10,6 +10,7 @@ déterminer une largeur maximum de 1 400 px.*/
 
 #container {
     max-width: 1400px;
+    margin: 0 50px;
 }
 
 i:not(.fa-location-dot) {
@@ -23,7 +24,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 55px;
     margin: 44px auto 0px;
 }
 
@@ -71,11 +71,9 @@ header ul {
 
 /*  */
 
-#introduction {
-    padding-left: 55px;
+main {
+    width: 1339px
 }
-
-/*  */
 
 form {
     display: flex;
@@ -194,8 +192,7 @@ i.grey-star {
 /*  */
 
 #accommodations {
-    width: 880px;
-    margin-left: 50px;
+    width: 940px;
     display: flex;
     flex-direction: column;
 }
@@ -204,12 +201,12 @@ i.grey-star {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 29px;
+    gap: 30px;
 }
 
 .accommodations-pics {
     height: 199px;
-    width: 219px;
+    width: 241px;
     left: 0px;
     top: 0px;
     border-radius: 20px;
@@ -242,7 +239,6 @@ i.grey-star {
 #popular-accommodations {
     width: 420px;
     height: 625px;
-    margin-right: 50px;
 }
 
 #first-line-sponsored {
@@ -253,8 +249,8 @@ i.grey-star {
 
 .card-sponsored {
     background: white;
-    height: 144px;
-    width: 343px;
+    height: 160px;
+    width: 100%;
     border-radius: 20px;
     border: 5px solid white;
     display: flex;
@@ -264,13 +260,13 @@ i.grey-star {
 #sponsored-cards {
     display: flex;
     flex-direction: column;
-    gap: 33px;
+    gap: 30px;
 }
 
 .card-sponsored h3,
 .card-sponsored p,
 .card-sponsored div {
-    margin: 0%;
+    margin: 2%;
     padding-left: 10px;
 }
 
@@ -293,7 +289,6 @@ i.grey-star {
 /*  */
 
 #activities {
-    padding-left: 50px;
     width: 1337px;
 }
 
@@ -331,8 +326,6 @@ i.grey-star {
 
 footer {
     background-color: #F2F2F2;
-    margin-left: 48px;
-    margin-right: 53px;
     width: 1339px;
 }
 

@@ -14,229 +14,227 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="Images Booki\logo\Booki.png" alt="logo du site Booki">
-            <ul>
-                <li>
-                    <a href="#accommodations">Hébergements</a>
-                </li>
-                <li>
-                    <a href="#activities">Activités</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="introduction">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
-            <form action="" method="get">
-                <div class="location-dot">
-                    <i class="fa-solid fa-location-dot"></i>
-                </div>
-                <input type="search" id="site-search" placeholder="Marseille, France">
-                <!-- lien loupe à ajouter pour version mobile <i class="fa-solid fa-magnifying-glass"></i>-->
-                <button id="button-search">Rechercher<i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-            <section id="container-filters">
-
-                <p>Filtres</p>
-
-                <div><button class="button-filters"><i class="fa-solid fa-money-bill-wave"></i>Économique</button></div>
-                <div><button class="button-filters"><i class="fa-solid fa-person"></i>Familial</button></div>
-                <div><button class="button-filters"><i class="fa-solid fa-heart"></i>Romantique</button></div>
-                <div><button class="button-filters"><i class="fa-solid fa-dog"></i>Animaux autorisés</button></div>
+    <div id="container">
+        <header>
+            <nav>
+                <img src="Images Booki\logo\Booki.png" alt="logo du site Booki">
+                <ul>
+                    <li>
+                        <a href="#accommodations">Hébergements</a>
+                    </li>
+                    <li>
+                        <a href="#activities">Activités</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="introduction">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+                <form action="" method="get">
+                    <div class="location-dot">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input type="search" id="site-search" placeholder="Marseille, France">
+                    <!-- lien loupe à ajouter pour version mobile <i class="fa-solid fa-magnifying-glass"></i>-->
+                    <button id="button-search">Rechercher<i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <section id="container-filters">
+                    <p>Filtres</p>
+                    <div><button class="button-filters"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+                    </div>
+                    <div><button class="button-filters"><i class="fa-solid fa-person"></i>Familial</button></div>
+                    <div><button class="button-filters"><i class="fa-solid fa-heart"></i>Romantique</button></div>
+                    <div><button class="button-filters"><i class="fa-solid fa-dog"></i>Animaux autorisés</button></div>
+                </section>
+                <section id="container-info">
+                    <div><i class="fa-solid fa-info"></i></div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </section>
             </section>
-            <section id="container-info">
-                <div><i class="fa-solid fa-info"></i></div>
-
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
-
-
-            </section>
-        </section>
-        <section id="offers">
-            <section id="accommodations">
-                <h2>Hébergements à Marseille</h2>
-                <div id="accommodations-cards">
-                    <a href="#">
-                        <article class="accommodations-pics"><img
-                                src="Images Booki\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                alt="Auberge La Canebière">
-                            <h3>Auberge La Canebière</h3>
-                            <p>Nuit à partir de 25€</p>
-                            <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
-                                    class="fa-solid fa-star"></i></div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="accommodations-pics"><img
-                                src="Images Booki\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                                alt="Hôtel du port">
-                            <h3>Hôtel du port</h3>
-                            <p>Nuit à partir de 52€</p>
-                            <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
-                                    class="fa-solid fa-star"></i></div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="accommodations-pics"><img
-                                src="Images Booki\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                                alt="Hôtel Les mouettes">
-                            <h3>Hôtel Les mouettes</h3>
-                            <p>Nuit à partir de 76€</p>
-                            <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
-                                    class="fa-solid fa-star"></i></div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="accommodations-pics"><img
-                                src="Images Booki\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                                alt="Hôtel de la mer">
-                            <h3>Hôtel de la mer</h3>
-                            <p>Nuit à partir de 46€</p>
-                            <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
-                                    class="fa-solid fa-star"></i></div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="accommodations-pics"><img
-                                src="Images Booki\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                                alt="Auberge Le Panier">
-                            <h3>Auberge Le Panier</h3>
-                            <p>Nuit à partir de 23€</p>
-                            <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
-                                    class="fa-solid fa-star"></i></div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="accommodations-pics"><img
-                                src="Images Booki\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                alt="Hôtel Chez Amina">
-                            <h3>Hôtel Chez Amina</h3>
-                            <p>Nuit à partir de 96€</p>
-                            <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
-                                    class="fa-solid fa-star"></i></div>
-                        </article>
-                    </a>
-                </div>
-                <p>Afficher plus</p>
-            </section>
-            <section id="popular-accommodations">
-                <div id="first-line-sponsored">
-                    <h2>Les plus populaires</h2>
-                    <div><i class="fa-solid fa-chart-line"></i></div>
-                </div>
-                <div id="sponsored-cards">
-                    <a href="#">
-                        <article class="card-sponsored"><img
-                                src="Images Booki\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                alt="Hôtel Le soleil du matin">
-                            <div>
-                                <h3>Hôtel Le soleil du matin</h3>
-                                <p>Nuit à partir de 128€</p>
+            <section id="offers">
+                <section id="accommodations">
+                    <h2>Hébergements à Marseille</h2>
+                    <div id="accommodations-cards">
+                        <a href="#">
+                            <article class="accommodations-pics"><img
+                                    src="Images Booki\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    alt="Auberge La Canebière">
+                                <h3>Auberge La Canebière</h3>
+                                <p>Nuit à partir de 25€</p>
                                 <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
                                         class="fa-solid fa-star"></i></div>
-                            </div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="card-sponsored"><img
-                                src="Images Booki\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg"
-                                alt="Chambres d’hôtes Au cœur de l’eau">
-                            <div>
-                                <h3>Chambres d’hôtes Au cœur de l’eau</h3>
-                                <p>Nuit à partir de 71€</p>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="accommodations-pics"><img
+                                    src="Images Booki\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                    alt="Hôtel du port">
+                                <h3>Hôtel du port</h3>
+                                <p>Nuit à partir de 52€</p>
                                 <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
                                         class="fa-solid fa-star"></i></div>
-                            </div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="card-sponsored"><img
-                                src="Images Booki\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                alt="Hôtel Bleu et Blanc">
-                            <div>
-                                <h3>Hôtel Bleu et Blanc</h3>
-                                <p>Nuit à partir de 68€</p>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="accommodations-pics"><img
+                                    src="Images Booki\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                    alt="Hôtel Les mouettes">
+                                <h3>Hôtel Les mouettes</h3>
+                                <p>Nuit à partir de 76€</p>
                                 <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
                                         class="fa-solid fa-star"></i></div>
-                            </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="accommodations-pics"><img
+                                    src="Images Booki\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                    alt="Hôtel de la mer">
+                                <h3>Hôtel de la mer</h3>
+                                <p>Nuit à partir de 46€</p>
+                                <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
+                                        class="fa-solid fa-star"></i></div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="accommodations-pics"><img
+                                    src="Images Booki\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                    alt="Auberge Le Panier">
+                                <h3>Auberge Le Panier</h3>
+                                <p>Nuit à partir de 23€</p>
+                                <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
+                                        class="fa-solid fa-star"></i></div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="accommodations-pics"><img
+                                    src="Images Booki\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                    alt="Hôtel Chez Amina">
+                                <h3>Hôtel Chez Amina</h3>
+                                <p>Nuit à partir de 96€</p>
+                                <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="grey-star"
+                                        class="fa-solid fa-star"></i></div>
+                            </article>
+                        </a>
+                    </div>
+                    <p>Afficher plus</p>
+                </section>
+                <section id="popular-accommodations">
+                    <div id="first-line-sponsored">
+                        <h2>Les plus populaires</h2>
+                        <div><i class="fa-solid fa-chart-line"></i></div>
+                    </div>
+                    <div id="sponsored-cards">
+                        <a href="#">
+                            <article class="card-sponsored"><img
+                                    src="Images Booki\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                    alt="Hôtel Le soleil du matin">
+                                <div>
+                                    <h3>Hôtel Le soleil du matin</h3>
+                                    <p>Nuit à partir de 128€</p>
+                                    <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            id="grey-star" class="fa-solid fa-star"></i></div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="card-sponsored"><img
+                                    src="Images Booki\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                    alt="Chambres d’hôtes Au cœur de l’eau">
+                                <div>
+                                    <h3>Chambres d’hôtes Au cœur de l’eau</h3>
+                                    <p>Nuit à partir de 71€</p>
+                                    <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            id="grey-star" class="fa-solid fa-star"></i></div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="card-sponsored"><img
+                                    src="Images Booki\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                    alt="Hôtel Bleu et Blanc">
+                                <div>
+                                    <h3>Hôtel Bleu et Blanc</h3>
+                                    <p>Nuit à partir de 68€</p>
+                                    <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            id="grey-star" class="fa-solid fa-star"></i></div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </section>
+            </section>
+            <section id="activities">
+                <h2>Activités à Marseille</h2>
+                <div id="activity-cards">
+                    <a href="#">
+                        <article class="card-activity"><img
+                                src="Images Booki\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="Vieux-Port">
+                            <h3>Vieux-Port</h3>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card-activity"><img
+                                src="Images Booki\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                alt="Fort de Pomègues">
+                            <h3>Fort de Pomègues</h3>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card-activity"><img
+                                src="Images Booki\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                                alt="Parc national des Calanques">
+                            <h3>Parc national des Calanques</h3>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card-activity"><img
+                                src="Images Booki\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                alt="Notre-Dame-de-la-Garde">
+                            <h3>Notre-Dame-de-la-Garde</h3>
                         </article>
                     </a>
                 </div>
             </section>
-        </section>
-        <section id="activities">
-            <h2>Activités à Marseille</h2>
-            <div id="activity-cards">
-                <a href="#">
-                    <article class="card-activity"><img
-                            src="Images Booki\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                            alt="Vieux-Port">
-                        <h3>Vieux-Port</h3>
-                    </article>
-                </a>
-                <a href="#">
-                    <article class="card-activity"><img
-                            src="Images Booki\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                            alt="Fort de Pomègues">
-                        <h3>Fort de Pomègues</h3>
-                    </article>
-                </a>
-                <a href="#">
-                    <article class="card-activity"><img
-                            src="Images Booki\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                            alt="Parc national des Calanques">
-                        <h3>Parc national des Calanques</h3>
-                    </article>
-                </a>
-                <a href="#">
-                    <article class="card-activity"><img
-                            src="Images Booki\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                            alt="Notre-Dame-de-la-Garde">
-                        <h3>Notre-Dame-de-la-Garde</h3>
-                    </article>
-                </a>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <nav>
-            <div>
-                <h3>À propos</h3>
-                <ul>
-                    <li><a href="#">Fonctionnement du site</a></li>
-                    <li><a href="#">Conditions générales</a></li>
-                    <li><a href="#">Données et confidentialité</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Nos hébergements</h3>
-                <ul>
-                    <li><a href="#">Charte qualité</a></li>
-                    <li><a href="#">Proposer votre hôtel</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Assistance</h3>
-                <ul>
-                    <li><a href="#">Centre d’aide</a></li>
-                    <li><a href="#">Nous contacter</a></li>
-                </ul>
-            </div>
-        </nav>
-    </footer>
+        </main>
+        <footer>
+            <nav>
+                <div>
+                    <h3>À propos</h3>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Nos hébergements</h3>
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Proposer votre hôtel</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Assistance</h3>
+                    <ul>
+                        <li><a href="#">Centre d’aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+    </div>
 </body>
 
 </html>

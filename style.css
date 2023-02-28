@@ -92,6 +92,7 @@ input {
 
 input::placeholder {
     color: black;
+    font-weight: bold;
 }
 
 .location-dot {

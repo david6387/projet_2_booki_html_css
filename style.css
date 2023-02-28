@@ -278,6 +278,10 @@ input::placeholder {
     border-radius: 20px 0px 0px 20px;
 }
 
+.stars-sponsored {
+    padding-top: 52px;
+}
+
 /*  */
 
 #activities {

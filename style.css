@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 /* Pour éviter d’étirer la page web sur la largeur de façon excessive, il va falloir 

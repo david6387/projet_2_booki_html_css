@@ -4,6 +4,9 @@ body {
     justify-content: center;
 }
 
+/* Pour éviter d’étirer la page web sur la largeur de façon excessive, il va falloir 
+déterminer une largeur maximum de 1 400 px.*/
+
 #container {
     max-width: 1400px;
 }
@@ -326,13 +329,6 @@ footer a {
 
 /* media queries*/
 
-
-/* Pour éviter d’étirer la page web sur la largeur de façon excessive, il va falloir 
-déterminer une largeur maximum de 1 400 px.
- */
-
-
-
 /*Medium devices (tablets, less than 992px) donc appliquer une max-width: 991.98px
 These mixins take those declared breakpoints, subtract .02px from them, and use them 
 as our max-width values.Why subtract .02px? Browsers don’t currently support range context 
@@ -340,11 +336,6 @@ queries, so we work around the limitations of min- and max- prefixes and viewpor
 fractional widths (which can occur under certain conditions on high-dpi devices, for instance)
 by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs/5.0/layout/breakpoints/ 
 */
-
-
-
-
-
 
 /* Small devices (mobile phones, less than 768px) donc appliquer une max-width: 767.98px*/
 

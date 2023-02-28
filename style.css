@@ -80,7 +80,8 @@ header ul {
 form {
     display: flex;
     align-items: center;
-    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 input {
@@ -97,6 +98,10 @@ input::placeholder {
     padding: 12.3px 16px;
     background: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
+}
+
+button {
+    font-weight: bold;
 }
 
 #button-search {
@@ -119,6 +124,8 @@ input::placeholder {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .button-filters {

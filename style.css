@@ -216,9 +216,8 @@ input::placeholder {
 
 #accommodations img {
     height: 124px;
-    width: 246px;
-    left: 0px;
-    top: 0px;
+    width: 100%;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -265,8 +264,9 @@ input::placeholder {
 }
 
 .card-sponsored img {
-    height: 144px;
+    height: 100%;
     width: 137px;
+    object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -297,7 +297,8 @@ input::placeholder {
 
 .card-activity img {
     height: 389px;
-    width: 302px;
+    width: 100%;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 

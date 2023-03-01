@@ -187,7 +187,7 @@ button {
     border-radius: 20px;
     padding: 39px;
     margin-top: 39px;
-    margin-bottom: 60px;
+
 }
 
 i.grey-star {
@@ -302,6 +302,7 @@ i.grey-star {
 
 #activities {
     width: 1339px;
+    margin-top: 60px;
 }
 
 #activity-cards {

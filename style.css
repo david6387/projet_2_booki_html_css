@@ -39,10 +39,11 @@ header a {
     padding: 0 23px;
 }
 
-header li header li {
+header li {
     position: relative;
     display: block;
     text-align: center;
+    font-weight: 500;
 }
 
 header a:hover {

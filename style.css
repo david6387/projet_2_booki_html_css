@@ -434,12 +434,11 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     header,
     footer {
-        width: 882px;
-
+        width: 880px;
     }
 
     main {
-        width: 882px;
+        width: 880px;
     }
 
     #offers {
@@ -447,12 +446,12 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         flex-direction: column;
     }
 
-    #accomodations {
-        width: 100%;
+    #accommodations {
+        width: auto;
     }
 
     #popular-accommodations {
-        width: 100%;
+        width: auto;
     }
 
     #sponsored-cards {
@@ -464,6 +463,18 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     .card-activity {
         height: 267px;
+    }
+
+    #activities h3 {
+        font-size: 16px;
+    }
+
+    .card-activity img {
+        height: 79%;
+    }
+
+    .card-activity>.two-last-activities {
+        margin-top: 5px;
     }
 }
 

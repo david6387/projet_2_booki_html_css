@@ -162,7 +162,7 @@ button {
     align-items: center;
     margin-bottom: 23px;
     font-weight: bold;
-    gap: 85px;
+    gap: 40px;
 }
 
 #container-filters p {
@@ -172,13 +172,14 @@ button {
 .button-filters {
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    padding: 14.58px;
+    padding: 13px 18px;
     background-color: white;
     font-size: 17px;
 }
 
 .button-filters i {
     padding-right: 10px;
+    font-size: 22px;
 }
 
 .button-filters:hover {

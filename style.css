@@ -114,6 +114,7 @@ form {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
+
 }
 
 input {
@@ -336,7 +337,7 @@ i.grey-star {
 /*  */
 
 #activities {
-    width: 1339px;
+    width: 100%;
     margin-top: 60px;
 }
 
@@ -349,17 +350,18 @@ i.grey-star {
 #activity-cards a {
     text-decoration: none;
     color: black;
+    width: 22.5%;
 }
 
 .card-activity {
     height: 445px;
-    width: 302px;
+    width: 100%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .card-activity img {
-    height: 389px;
+    height: 87%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;

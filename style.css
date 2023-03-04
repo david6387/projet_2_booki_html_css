@@ -247,9 +247,7 @@ i.grey-star {
 
 .accommodations-pics {
     height: 191px;
-    width: 238px;
-    left: 0px;
-    top: 0px;
+    width: 100%;
     border-radius: 20px;
     border: 5px solid white;
     background: white;
@@ -259,13 +257,13 @@ i.grey-star {
 .accommodations-pics h3,
 .accommodations-pics p,
 .accommodations-pics div {
-    margin: auto;
-    padding-left: 10px;
+    margin: 5px 7px;
 }
 
 #accommodations-cards a {
     text-decoration: none;
     color: black;
+    width: 30.5%;
 }
 
 #accommodations img {

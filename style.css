@@ -156,6 +156,8 @@ button {
     text-align: justify;
     background: transparent;
     margin-top: 40px;
+    width: 125px;
+    padding: 0;
 }
 
 #button-search i {

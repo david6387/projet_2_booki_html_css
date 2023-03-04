@@ -283,8 +283,7 @@ i.grey-star {
 /*  */
 
 #popular-accommodations {
-    width: 25%;
-    height: 545px;
+    width: 26%;
 }
 
 #first-line-sponsored {
@@ -306,15 +305,10 @@ i.grey-star {
 #sponsored-cards {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 32px;
 }
 
-.card-sponsored h3,
-.card-sponsored p,
-.card-sponsored div {
-    margin: 2%;
-    padding-left: 5px;
-}
+
 
 #popular-accommodations a {
     text-decoration: none;
@@ -328,9 +322,19 @@ i.grey-star {
     border-radius: 20px 0px 0px 20px;
 }
 
-.sponsored {
-    padding-top: 26px;
+.sponsored-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px 10px;
+}
 
+.sponsored-info h3 {
+    margin: 0;
+}
+
+.sponsored-info p {
+    margin: 7px 0;
 }
 
 .stars {

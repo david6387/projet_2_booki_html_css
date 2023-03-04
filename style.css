@@ -459,7 +459,9 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         flex-direction: row;
     }
 
-
+    .card-sponsored img {
+        width: 101px;
+    }
 
     .card-activity {
         height: 267px;

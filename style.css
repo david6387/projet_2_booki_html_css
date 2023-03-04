@@ -58,6 +58,11 @@ nav img {
     height: 19px;
 }
 
+header {
+    width: 1339px;
+    margin: 0 auto;
+}
+
 header a {
     text-decoration: none;
     color: black;
@@ -100,7 +105,8 @@ header ul {
 /*  */
 
 main {
-    width: 1339px
+    width: 1339px;
+    margin: 0 auto;
 }
 
 form {
@@ -371,7 +377,7 @@ footer {
     width: 1339px;
     display: flex;
     justify-content: space-around;
-    margin-top: 61px;
+    margin: 61px auto 0 auto;
 }
 
 footer div {

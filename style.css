@@ -137,6 +137,7 @@ input::placeholder {
 
 button {
     font-weight: bold;
+    cursor: pointer;
 }
 
 #button-search {
@@ -147,6 +148,14 @@ button {
     padding: 14px 16px;
     gap: 10px;
     font-size: 18px;
+}
+
+#read-more {
+    border: none;
+    font-size: 18px;
+    text-align: justify;
+    background: transparent;
+    margin-top: 40px;
 }
 
 #button-search i {

@@ -1,7 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: center;
+
     margin: 0;
 }
 
@@ -11,11 +10,37 @@ déterminer une largeur maximum de 1 400 px.*/
 
 #container {
     max-width: 1400px;
-    margin: 0 50px;
+    margin: 0 auto;
+    padding: 0 50px;
 }
 
 i:not(.fa-location-dot) {
     color: #0065FC;
+}
+
+h1,
+h2 {
+    font-size: 22px;
+}
+
+#introduction p {
+    font-size: 16px;
+}
+
+#offers p {
+    font-size: 14px;
+}
+
+#offers h3 {
+    font-size: 16px;
+}
+
+#activities h3 {
+    font-size: 18px;
+}
+
+footer h3 {
+    font-size: 18px;
 }
 
 /*  */
@@ -38,6 +63,7 @@ header a {
     color: black;
     position: relative;
     padding: 0 23px;
+    font-size: 16px;
 }
 
 header li {
@@ -93,6 +119,7 @@ input {
 input::placeholder {
     color: black;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .location-dot {
@@ -112,6 +139,7 @@ button {
     border-radius: 0px 15px 15px 0px;
     padding: 14px 16px;
     gap: 10px;
+    font-size: 18px;
 }
 
 #button-search i {
@@ -131,7 +159,7 @@ button {
 }
 
 #container-filters p {
-    font-weight: 700;
+    font-size: 18px;
 }
 
 .button-filters {
@@ -139,6 +167,7 @@ button {
     border-radius: 25px;
     padding: 14.58px;
     background-color: white;
+    font-size: 17px;
 }
 
 .button-filters i {
@@ -352,6 +381,7 @@ footer div {
 footer ul {
     list-style-type: none;
     padding-left: 0px;
+    font-size: 16px;
 }
 
 footer a {

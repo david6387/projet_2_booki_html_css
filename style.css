@@ -330,8 +330,13 @@ i.grey-star {
     border-radius: 20px 0px 0px 20px;
 }
 
-.stars-sponsored {
+.sponsored {
     padding-top: 26px;
+
+}
+
+.stars {
+    font-size: 12px;
 }
 
 /*  */

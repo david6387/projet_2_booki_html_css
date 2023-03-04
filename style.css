@@ -58,7 +58,8 @@ nav img {
     height: 19px;
 }
 
-header {
+header,
+main {
     width: 1339px;
     margin: 0 auto;
 }
@@ -103,11 +104,6 @@ header ul {
 }
 
 /*  */
-
-main {
-    width: 1339px;
-    margin: 0 auto;
-}
 
 form {
     display: flex;
@@ -174,7 +170,7 @@ button {
     align-items: center;
     margin-bottom: 23px;
     font-weight: bold;
-    gap: 40px;
+    gap: 30px;
 }
 
 #container-filters p {
@@ -429,11 +425,53 @@ fractional widths (which can occur under certain conditions on high-dpi devices,
 by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs/5.0/layout/breakpoints/ 
 */
 
+@media screen and (max-width: 991.98px) {
+    #container {
+        max-width: 991.98px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    header,
+    footer {
+        width: 882px;
+
+    }
+
+    main {
+        width: 882px;
+    }
+
+    #offers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #accomodations {
+        width: 100%;
+    }
+
+    #popular-accommodations {
+        width: 100%;
+    }
+
+    #sponsored-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    .card-activity {
+        height: 267px;
+    }
+}
+
 /* Small devices (mobile phones, less than 768px) donc appliquer une max-width: 767.98px*/
 
 /* #offers {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: .....
-}
+        display: flex;
+        flex-direction: column-reverse;
+        gap:
+    }
 */

@@ -459,6 +459,12 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     #sponsored-cards {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    #sponsored-cards a {
+        width: 31%;
     }
 
     .card-sponsored img {

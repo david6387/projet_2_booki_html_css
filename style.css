@@ -108,9 +108,7 @@ header ul {
 form {
     display: flex;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-
+    margin: 35px 0;
 }
 
 input {
@@ -516,6 +514,10 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     #introduction {
         width: 335px;
         margin: auto 20px;
+    }
+
+    #container-info {
+        align-items: baseline;
     }
 
     main {

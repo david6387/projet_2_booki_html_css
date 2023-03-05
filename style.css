@@ -597,6 +597,12 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #popular-accommodations {
         border-radius: 0;
+        padding: 30px 20px;
+        margin-top: 30px;
+    }
+
+    .card-sponsored {
+        width: auto;
     }
 
     #sponsored-cards {
@@ -610,6 +616,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #accommodations {
         background: none;
+        margin-top: 10px;
     }
 
     #accommodations-cards {

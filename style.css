@@ -506,6 +506,39 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         width: 375px;
     }
 
+    #offers {
+        flex-direction: column-reverse;
+    }
+
+    #accommodations,
+    #popular-accommodations {
+        padding: 20px;
+    }
+
+    #popular-accommodations {
+        border-radius: 0;
+    }
+
+    #sponsored-cards {
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    #accommodations {
+        background: none;
+    }
+
+    #accommodations-cards {
+        flex-direction: column;
+    }
+
+    #accommodations-cards a {
+        width: 100%;
+    }
+
+    #sponsored-cards a {
+        width: 100%;
+    }
 
     #activity-cards a {
         width: 100%;

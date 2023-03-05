@@ -115,7 +115,7 @@ form {
 
 input {
     border: 1px solid #F2F2F2;
-    padding: 16px 50px 16px 17px;
+    padding: 16px 55px 16px 17px;
 
 }
 
@@ -442,17 +442,6 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         width: 880px;
     }
 
-    nav {
-        flex-direction: column;
-        margin: 20px 0px;
-    }
-
-    nav ul {
-        padding: 0;
-        gap: 80px;
-        margin: 45px 0;
-    }
-
     #offers {
         width: 100%;
         flex-direction: column;
@@ -511,6 +500,22 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     header,
     footer {
         width: 375px;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    nav ul {
+        padding: 0;
+        gap: 80px;
+        margin: 45px 0;
+    }
+
+    #introduction {
+        width: 335px;
+        margin: auto 20px;
     }
 
     main {

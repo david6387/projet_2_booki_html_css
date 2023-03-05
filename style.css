@@ -192,6 +192,11 @@ button {
     background-color: #DEEBFF;
 }
 
+.filters-button {
+    display: flex;
+    gap: 30px;
+}
+
 /*  */
 
 #container-info {
@@ -514,6 +519,31 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     #introduction {
         width: 335px;
         margin: auto 20px;
+    }
+
+    #container-filters {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 17px;
+    }
+
+    .filters-button {
+        gap: 14px;
+    }
+
+    #container-filters p {
+        margin: 0;
+    }
+
+    .button-filters {
+        font-size: 11px;
+        width: 160px;
+        padding: 15px 18px;
+    }
+
+    .button-filters i {
+        padding-right: 3px;
+        font-size: 17px;
     }
 
     #container-info {

@@ -524,6 +524,11 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         gap: 11px;
     }
 
+    .card-sponsored img {
+        height: 100%;
+        width: 128px;
+    }
+
     #accommodations {
         background: none;
     }

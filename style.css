@@ -566,6 +566,14 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         align-items: baseline;
     }
 
+    .fa-info {
+        font-size: large;
+    }
+
+    #container-info p {
+        width: fit-content;
+    }
+
     main {
         width: 375px;
     }
@@ -651,11 +659,11 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     footer div:first-child {
-        padding-top: 45px;
+        padding-top: 30px;
     }
 
     footer div:last-child {
-        padding-bottom: 45px;
+        padding-bottom: 30px;
     }
 }
 

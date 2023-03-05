@@ -506,6 +506,14 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         width: 375px;
     }
 
+    #search-text {
+        display: none;
+    }
+
+    #button-search i {
+        display: inline-block;
+    }
+
     #offers {
         flex-direction: column-reverse;
     }
@@ -525,7 +533,6 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     .card-sponsored img {
-        height: 100%;
         width: 128px;
     }
 

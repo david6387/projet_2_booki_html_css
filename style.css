@@ -490,6 +490,41 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
 /* Small devices (mobile phones, less than 768px) donc appliquer une max-width: 767.98px*/
 
+@media screen and (max-width: 767.98px) {
+    #container {
+        max-width: 767.98px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    header,
+    footer {
+        width: 375px;
+    }
+
+    main {
+        width: 375px;
+    }
+
+
+    #activity-cards a {
+        width: 100%;
+    }
+
+    #activity-cards {
+        gap: 24px;
+    }
+
+    #activities {
+        width: 335px;
+        margin: 60px auto;
+    }
+
+    .card-activity>.two-last-activities {
+        margin-top: 14px;
+    }
+}
+
 /* #offers {
         display: flex;
         flex-direction: column-reverse;

@@ -251,7 +251,8 @@ i.grey-star {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 31px;
+    justify-content: space-between;
+    row-gap: 30px;
 }
 
 .accommodations-pics {
@@ -292,7 +293,7 @@ i.grey-star {
 /*  */
 
 #popular-accommodations {
-    width: 26%;
+    width: 25%;
 }
 
 #first-line-sponsored {
@@ -429,7 +430,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     #container {
         max-width: 991.98px;
         margin: 0 auto;
-        padding: 0 50px;
+        padding: 0;
     }
 
     header,
@@ -442,7 +443,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     #offers {
-        display: flex;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -452,6 +453,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #popular-accommodations {
         width: auto;
+        margin-top: 40px;
     }
 
     #sponsored-cards {

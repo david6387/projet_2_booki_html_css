@@ -18,6 +18,8 @@ i:not(.fa-location-dot) {
     color: #0065FC;
 }
 
+/* taille des polices */
+
 h1,
 h2 {
     font-size: 22px;
@@ -27,11 +29,11 @@ h2 {
     font-size: 16px;
 }
 
-#offers p {
+#container-offers p {
     font-size: 14px;
 }
 
-#offers h3 {
+#container-offers h3 {
     font-size: 16px;
 }
 
@@ -43,7 +45,15 @@ footer h3 {
     font-size: 18px;
 }
 
-/*  */
+#container-filters p {
+    font-size: 18px;
+}
+
+.rating {
+    font-size: 12px;
+}
+
+/* Étape 3 : Intégrez le header du projet. Le code de l’en-tête de la page. */
 
 nav {
     display: flex;
@@ -103,7 +113,7 @@ header ul {
     gap: 30px;
 }
 
-/*  */
+/* Étape 4 : Ajoutez le formulaire de recherche */
 
 form {
     display: flex;
@@ -145,22 +155,12 @@ button {
     font-size: 18px;
 }
 
-#read-more {
-    border: none;
-    font-size: 18px;
-    text-align: justify;
-    background: transparent;
-    margin-top: 40px;
-    width: 125px;
-    padding: 0;
-}
-
 #button-search i {
     display: none;
     color: white;
 }
 
-/*  */
+/* Étape 5 : Ajout de la partie Filtres */
 
 #container-filters {
     display: flex;
@@ -169,10 +169,6 @@ button {
     margin-bottom: 23px;
     font-weight: bold;
     gap: 30px;
-}
-
-#container-filters p {
-    font-size: 18px;
 }
 
 .button-filters {
@@ -199,12 +195,12 @@ button {
 
 /*  */
 
-#container-info {
+#infobar {
     display: flex;
     align-items: center;
 }
 
-#container-info div {
+#infobar div {
     border: 1px solid #D9D9D9;
     width: 24px;
     height: 24px;
@@ -214,23 +210,23 @@ button {
     justify-content: center;
 }
 
-#container-info p {
+#infobar p {
     padding-left: 11px;
 }
 
 /*  */
 
-#offers {
+#container-offers {
     display: flex;
     justify-content: space-between;
 }
 
-#offers h2 {
+#container-offers h2 {
     margin-top: 0px;
 }
 
-#accommodations,
-#popular-accommodations {
+#container-main-offers,
+#container-sponsored-offers {
     background: #F2F2F2;
     border-radius: 20px;
     padding: 39px;
@@ -242,15 +238,16 @@ i.grey-star {
     color: #F2F2F2;
 }
 
-/*  */
+/* Étape 6 : Réalisez la “card” présente dans “Hébergements à Marseille” */
 
-#accommodations {
+#container-main-offers {
     width: 60%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-#accommodations-cards {
+#main-offers-cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -258,7 +255,7 @@ i.grey-star {
     row-gap: 30px;
 }
 
-.accommodations-pics {
+.main-offers-content {
     height: 191px;
     width: 100%;
     border-radius: 20px;
@@ -267,45 +264,53 @@ i.grey-star {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.accommodations-pics h3,
-.accommodations-pics p,
-.accommodations-pics div {
+.main-offers-content h3,
+.main-offers-content p,
+.main-offers-content div {
     margin: 4px 6px;
 }
 
-#accommodations-cards a {
+#main-offers-cards a {
     text-decoration: none;
     color: black;
     width: 30.5%;
 }
 
-#accommodations img {
+#container-main-offers img {
     height: 65%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
-#accommodations>p {
+#container-main-offers>p {
     font-weight: bold;
     margin-top: 32px;
 }
 
+#read-more {
+    border: none;
+    font-size: 18px;
+    text-align: justify;
+    background: transparent;
+    margin-top: 40px;
+    width: 125px;
+    padding: 0;
+}
 
+/* Étape 7 : Réalisez la “card” présente dans “Les plus populaires” */
 
-/*  */
-
-#popular-accommodations {
+#container-sponsored-offers {
     width: 25%;
 }
 
-#first-line-sponsored {
+#sponsored-offers-title {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
 }
 
-.card-sponsored {
+.sponsored-offers-content {
     background: white;
     height: 136px;
     width: 100%;
@@ -315,7 +320,7 @@ i.grey-star {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-#sponsored-cards {
+#sponsored-offers-cards {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -323,36 +328,34 @@ i.grey-star {
 
 
 
-#popular-accommodations a {
+#container-sponsored-offers a {
     text-decoration: none;
     color: black;
 }
 
-.card-sponsored img {
+.sponsored-offers-content img {
     height: 100%;
     width: 128px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 
-.sponsored-info {
+.sponsored-offers-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 7px 10px;
 }
 
-.sponsored-info h3 {
+.sponsored-offers-info h3 {
     margin: 0;
 }
 
-.sponsored-info p {
+.sponsored-offers-info p {
     margin: 7px 0;
 }
 
-.stars {
-    font-size: 12px;
-}
+/* Étape 9 : Intégrez le conteneur “Activités à Marseille” */
 
 #activities {
     width: 100%;
@@ -371,26 +374,26 @@ i.grey-star {
     width: 22.5%;
 }
 
-.card-activity {
+.activity-content {
     height: 445px;
     width: 100%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.card-activity img {
+.activity-content img {
     height: 87%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-activity h3 {
+.activity-content h3 {
     padding-left: 20px;
     margin-top: 14px;
 }
 
-/*  */
+/* Étape 10 : Implémentez le footer */
 
 footer {
     background-color: #F2F2F2;
@@ -417,7 +420,7 @@ footer a {
     padding-bottom: 10px;
 }
 
-/* media queries*/
+/* media queries Étape 11 : Mettez en place le responsive design */
 
 /*Medium devices (tablets, less than 992px) donc appliquer une max-width: 991.98px
 These mixins take those declared breakpoints, subtract .02px from them, and use them 
@@ -443,36 +446,36 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         width: 880px;
     }
 
-    #offers {
+    #container-offers {
         width: 100%;
         flex-direction: column;
     }
 
-    #accommodations {
+    #container-main-offers {
         width: auto;
     }
 
-    #popular-accommodations {
+    #container-sponsored-offers {
         width: auto;
         margin-top: 40px;
     }
 
-    #sponsored-cards {
+    #sponsored-offers-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         gap: 0;
     }
 
-    #sponsored-cards a {
+    #sponsored-offers-cards a {
         width: 31%;
     }
 
-    .card-sponsored img {
+    .sponsored-offers-content img {
         width: 101px;
     }
 
-    .card-activity {
+    .activity-content {
         height: 267px;
     }
 
@@ -480,11 +483,11 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         font-size: 16px;
     }
 
-    .card-activity img {
+    .activity-content img {
         height: 79%;
     }
 
-    .card-activity>.two-last-activities {
+    .activity-content>.two-last-activities {
         margin-top: 5px;
     }
 }
@@ -560,7 +563,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         font-size: 16px;
     }
 
-    #container-info {
+    #infobar {
         align-items: baseline;
     }
 
@@ -568,7 +571,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         font-size: large;
     }
 
-    #container-info p {
+    #infobar p {
         width: fit-content;
     }
 
@@ -584,48 +587,48 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         display: inline-block;
     }
 
-    #offers {
+    #container-offers {
         flex-direction: column-reverse;
     }
 
-    #accommodations,
-    #popular-accommodations {
+    #container-main-offers,
+    #container-sponsored-offers {
         padding: 20px;
     }
 
-    #popular-accommodations {
+    #container-sponsored-offers {
         border-radius: 0;
         padding: 30px 20px;
         margin-top: 30px;
     }
 
-    .card-sponsored {
+    .sponsored-offers-content {
         width: auto;
     }
 
-    #sponsored-cards {
+    #sponsored-offers-cards {
         flex-direction: column;
         gap: 11px;
     }
 
-    .card-sponsored img {
+    .sponsored-offers-content img {
         width: 128px;
     }
 
-    #accommodations {
+    #container-main-offers {
         background: none;
         margin-top: 10px;
     }
 
-    #accommodations-cards {
+    #main-offers-cards {
         flex-direction: column;
     }
 
-    #accommodations-cards a {
+    #main-offers-cards a {
         width: 100%;
     }
 
-    #sponsored-cards a {
+    #sponsored-offers-cards a {
         width: 100%;
     }
 
@@ -646,15 +649,15 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         margin: 60px auto;
     }
 
-    .card-activity {
+    .activity-content {
         height: 190px;
     }
 
-    .card-activity img {
+    .activity-content img {
         height: 71%;
     }
 
-    .card-activity>.two-last-activities {
+    .activity-content>.two-last-activities {
         margin-top: 14px;
     }
 

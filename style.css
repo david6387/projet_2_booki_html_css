@@ -354,8 +354,6 @@ i.grey-star {
     font-size: 12px;
 }
 
-/*  */
-
 #activities {
     width: 100%;
     margin-top: 60px;
@@ -629,6 +627,10 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #sponsored-cards a {
         width: 100%;
+    }
+
+    #read-more {
+        display: none;
     }
 
     #activity-cards a {

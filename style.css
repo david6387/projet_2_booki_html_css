@@ -60,7 +60,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 44px 0px;
+    margin: 44px 0;
 }
 
 nav img {
@@ -136,7 +136,7 @@ input::placeholder {
 .location-dot {
     padding: 14px 16px;
     background: #F2F2F2;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0 0 15px;
     font-size: 18px;
 }
 
@@ -149,7 +149,7 @@ button {
     border: none;
     background: #0065FC;
     color: white;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0 15px 15px 0;
     padding: 14px 16px;
     gap: 10px;
     font-size: 18px;
@@ -222,7 +222,7 @@ button {
 }
 
 #container-offers h2 {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 #container-main-offers,
@@ -259,7 +259,7 @@ i.grey-star {
     border-radius: 20px;
     border: 5px solid white;
     background: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 .main-offers-content h3,
@@ -278,7 +278,7 @@ i.grey-star {
     height: 65%;
     width: 100%;
     object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
 }
 
 #container-main-offers>p {
@@ -314,7 +314,7 @@ i.grey-star {
     border-radius: 20px;
     border: 5px solid white;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 #sponsored-offers-cards {
@@ -334,7 +334,7 @@ i.grey-star {
     height: 100%;
     width: 132px;
     object-fit: cover;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0 0 20px;
 }
 
 .sponsored-offers-info {
@@ -375,14 +375,14 @@ i.grey-star {
     height: 445px;
     width: 100%;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 .activity-content img {
     height: 87%;
     width: 100%;
     object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
 }
 
 .activity-content h3 {
@@ -406,7 +406,7 @@ footer div {
 
 footer ul {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
     font-size: 16px;
 }
 
@@ -505,7 +505,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     nav {
         flex-direction: column;
-        margin: 20px 0px;
+        margin: 20px 0;
     }
 
     nav ul {
@@ -663,7 +663,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     footer div {
-        padding-top: 0px;
+        padding-top: 0;
         padding-left: 30px;
     }
 

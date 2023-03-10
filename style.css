@@ -472,6 +472,11 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         width: 101px;
     }
 
+    #activities,
+    footer {
+        margin-top: 70px;
+    }
+
     .activity-content {
         height: 267px;
     }

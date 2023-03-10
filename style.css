@@ -110,7 +110,7 @@ header ul {
     display: flex;
     flex-direction: row;
     position: relative;
-    gap: 30px;
+    column-gap: 30px;
 }
 
 /* Étape 4 : Ajoutez le formulaire de recherche */
@@ -151,7 +151,6 @@ button {
     color: white;
     border-radius: 0 15px 15px 0;
     padding: 14px 16px;
-    gap: 10px;
     font-size: 18px;
 }
 
@@ -168,7 +167,7 @@ button {
     align-items: center;
     margin-bottom: 23px;
     font-weight: bold;
-    gap: 30px;
+    column-gap: 30px;
 }
 
 .button-filters {
@@ -190,7 +189,7 @@ button {
 
 .filters-button {
     display: flex;
-    gap: 30px;
+    column-gap: 30px;
 }
 
 /*  */

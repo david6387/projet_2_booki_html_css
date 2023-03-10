@@ -595,7 +595,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #container-sponsored-offers {
         border-radius: 0;
-        padding: 30px 20px;
+        padding: 30px 20px 45px 20px;
         margin-top: 30px;
     }
 
@@ -619,6 +619,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #main-offers-cards {
         flex-direction: column;
+        row-gap: 12px;
     }
 
     #main-offers-cards a {
@@ -643,7 +644,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #activities {
         width: 335px;
-        margin: 60px auto;
+        margin: 80px auto;
     }
 
     .activity-content {

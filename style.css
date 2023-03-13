@@ -4,7 +4,6 @@ body {
     margin: 0;
 }
 
-
 /* Pour éviter d’étirer la page web sur la largeur de façon excessive, il va falloir 
 déterminer une largeur maximum de 1 400 px.*/
 
@@ -12,6 +11,7 @@ déterminer une largeur maximum de 1 400 px.*/
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 50px;
+    overflow: hidden;
 }
 
 i:not(.fa-location-dot) {

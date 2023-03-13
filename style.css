@@ -33,6 +33,26 @@ h2 {
     font-size: 14px;
 }
 
+#container-offers p::after {
+    content: "€";
+    font-weight: bold;
+}
+
+/* ou garder le € 
+
+#container-offers p {
+    font-size: 14px;
+    position: relative;
+}
+
+#container-offers p::after {
+    bottom: 0;
+    font-weight: bold;
+    content: '€';
+    position: absolute;
+    transform: translate(-100%, 0);
+} */
+
 #container-offers h3 {
     font-size: 16px;
 }

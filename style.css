@@ -25,10 +25,6 @@ h2 {
     font-size: 22px;
 }
 
-#introduction p {
-    font-size: 16px;
-}
-
 #container-offers p {
     font-size: 14px;
 }
@@ -53,19 +49,14 @@ h2 {
     transform: translate(-100%, 0);
 } */
 
-#container-offers h3 {
+#container-offers h3,
+#introduction p {
     font-size: 16px;
 }
 
+footer h3,
+#container-filters p,
 #activities h3 {
-    font-size: 18px;
-}
-
-footer h3 {
-    font-size: 18px;
-}
-
-#container-filters p {
     font-size: 18px;
 }
 
@@ -320,7 +311,7 @@ i.grey-star {
 /* Étape 7 : Réalisez la “card” présente dans “Les plus populaires” */
 
 #container-sponsored-offers {
-    width: 31.5%;
+    width: 31.2%;
     box-sizing: border-box;
 }
 

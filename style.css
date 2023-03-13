@@ -7,7 +7,8 @@ body {
 déterminer une largeur maximum de 1 400 px.*/
 
 #container {
-    max-width: 1400px;
+    max-width: 1440px;
+    width: 1339px;
     margin: 0 auto;
     padding: 0 50px;
     overflow: hidden;
@@ -89,7 +90,7 @@ nav img {
 
 header,
 main {
-    width: 1339px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -415,7 +416,7 @@ i.grey-star {
 
 footer {
     background-color: #F2F2F2;
-    width: 1339px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 61px auto 0 auto;
@@ -440,7 +441,7 @@ footer a {
 
 /* media queries Étape 11 : Mettez en place le responsive design */
 
-/*Medium devices (tablets, less than 992px) donc appliquer une max-width: 991.98px
+/*Medium devices (tablets, less than 992px / 1024) donc appliquer une max-width: 991.98px
 These mixins take those declared breakpoints, subtract .02px from them, and use them 
 as our max-width values.Why subtract .02px? Browsers don’t currently support range context 
 queries, so we work around the limitations of min- and max- prefixes and viewports with 
@@ -448,20 +449,12 @@ fractional widths (which can occur under certain conditions on high-dpi devices,
 by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs/5.0/layout/breakpoints/ 
 */
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 1024px) {
     #container {
-        max-width: 991.98px;
+        max-width: 1024px;
+        width: 880px;
         margin: 0 auto;
         padding: 0;
-    }
-
-    header,
-    footer {
-        width: 880px;
-    }
-
-    main {
-        width: 880px;
     }
 
     #container-offers {
@@ -520,13 +513,9 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 @media screen and (max-width: 767.98px) {
     #container {
         max-width: 767.98px;
+        width: 375px;
         margin: 0 auto;
         padding: 0;
-    }
-
-    header,
-    footer {
-        width: 375px;
     }
 
     nav {
@@ -596,10 +585,6 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #infobar p {
         width: fit-content;
-    }
-
-    main {
-        width: 375px;
     }
 
     #search-text {

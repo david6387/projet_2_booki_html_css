@@ -238,6 +238,7 @@ button {
 #container-offers {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 #container-offers h2 {
@@ -260,9 +261,10 @@ i.grey-star {
 /* Étape 6 : Réalisez la “card” présente dans “Hébergements à Marseille” */
 
 #container-main-offers {
-    width: 60%;
+    width: 65.5%;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 #main-offers-cards {
@@ -318,7 +320,8 @@ i.grey-star {
 /* Étape 7 : Réalisez la “card” présente dans “Les plus populaires” */
 
 #container-sponsored-offers {
-    width: 25.5%;
+    width: 31.5%;
+    box-sizing: border-box;
 }
 
 #sponsored-offers-title {

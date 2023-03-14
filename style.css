@@ -7,8 +7,7 @@ body {
 déterminer une largeur maximum de 1 400 px.*/
 
 #container {
-    max-width: 1440px;
-    width: 1339px;
+    max-width: 1339px;
     margin: 0 auto;
     padding: 0 50px;
     overflow: hidden;
@@ -442,8 +441,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
 @media screen and (max-width: 1024px) {
     #container {
-        max-width: 1024px;
-        width: 880px;
+        max-width: 880px;
         margin: 0 auto;
         padding: 0;
     }
@@ -503,8 +501,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
 @media screen and (max-width: 767.98px) {
     #container {
-        max-width: 767.98px;
-        width: 375px;
+        max-width: 375px;
         margin: 0 auto;
         padding: 0;
     }
@@ -537,8 +534,12 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     #introduction {
-        width: 335px;
+        width: 100%;
         margin: auto 20px;
+    }
+
+    input {
+        width: calc(100% - 117px)
     }
 
     #container-filters {

@@ -344,7 +344,7 @@ i.grey-star {
 
 .sponsored-offers-content img {
     height: 100%;
-    width: 132px;
+    width: 40%;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
 }
@@ -469,6 +469,10 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #sponsored-offers-cards a {
         width: 31%;
+    }
+
+    .sponsored-offers-info p {
+        font-size: 13px;
     }
 
     .sponsored-offers-content img {

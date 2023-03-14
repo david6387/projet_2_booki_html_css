@@ -538,7 +538,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     #introduction {
-        width: 100%;
+        max-width: 100%;
         margin: auto 20px;
     }
 

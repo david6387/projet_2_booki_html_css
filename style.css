@@ -173,11 +173,15 @@ button {
 
 #container-filters {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 23px;
     font-weight: bold;
-    column-gap: 30px;
+    gap: 20px;
+}
+
+#filters-button {
+    display: flex;
+    gap: 20px;
 }
 
 .button-filters {
@@ -197,10 +201,6 @@ button {
     background-color: #DEEBFF;
 }
 
-.filters-button {
-    display: flex;
-    column-gap: 30px;
-}
 
 /*  */
 
@@ -446,6 +446,15 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         padding: 0 20px;
     }
 
+    #container-filters {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+
+
     #container-offers {
         width: 100%;
         flex-direction: column;
@@ -546,14 +555,21 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         width: calc(100% - 117px)
     }
 
+    input::placeholder {
+        font-size: 14px;
+    }
+
     #container-filters {
         flex-direction: column;
         align-items: flex-start;
         gap: 17px;
     }
 
-    .filters-button {
-        gap: 14px;
+    #filters-button {
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: space-between;
+        row-gap: 20px;
     }
 
     #container-filters p {
@@ -562,8 +578,8 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     .button-filters {
         font-size: 11px;
-        width: 160px;
-        padding: 15px 18px;
+        width: 150px;
+        padding: 15px 13px;
     }
 
     .button-filters i {

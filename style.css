@@ -448,7 +448,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #container-filters {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-between;
         gap: 0;
     }
@@ -552,7 +552,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     input {
-        width: calc(100% - 117px)
+        width: calc(100% - 96px)
     }
 
     input::placeholder {

@@ -579,7 +579,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         flex-wrap: wrap;
         gap: 0;
         justify-content: space-between;
-        row-gap: 20px;
+        row-gap: 25px;
     }
 
     #container-filters p {

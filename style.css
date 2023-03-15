@@ -642,7 +642,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
     }
 
     .sponsored-offers-content img {
-        width: 128px;
+        width: 40%;
     }
 
     #container-main-offers {

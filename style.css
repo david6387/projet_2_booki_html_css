@@ -451,7 +451,6 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 @media screen and (max-width: 1024px) {
     #container {
         max-width: 880px;
-        margin: 0 auto;
         padding: 0 20px;
     }
 
@@ -521,7 +520,6 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 @media screen and (max-width: 768px) {
     #container {
         max-width: 375px;
-        margin: 0 auto;
         padding: 0;
     }
 

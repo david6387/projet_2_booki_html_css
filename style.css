@@ -173,15 +173,14 @@ button {
 
 #container-filters {
     display: flex;
-    align-items: center;
-    margin-bottom: 23px;
     font-weight: bold;
-    gap: 20px;
 }
 
 #filters-button {
+    width: 76%;
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .button-filters {
@@ -456,14 +455,11 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         padding: 0 20px;
     }
 
-    #container-filters {
-        display: flex;
+    #filters-button {
+        width: 100%;
         flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 0;
+        row-gap: 15px;
     }
-
-
 
     #container-offers {
         width: 100%;
@@ -571,19 +567,15 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
     #container-filters {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 17px;
+        margin-bottom: 35px;
     }
 
     #filters-button {
-        flex-wrap: wrap;
-        gap: 0;
         justify-content: space-between;
-        row-gap: 25px;
     }
 
     #container-filters p {
-        margin: 0;
+        margin-bottom: 15px;
     }
 
     .button-filters {

@@ -172,18 +172,19 @@ button {
 /* Étape 5 : Ajout de la partie Filtres */
 
 #container-filters {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 23px;
     font-weight: bold;
-    column-gap: 30px;
+    justify-content: space-evenly;
 }
 
 .button-filters {
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    padding: 13px 18px;
+    padding: 11px 18px;
     background-color: white;
     font-size: 17px;
 }
@@ -197,9 +198,8 @@ button {
     background-color: #DEEBFF;
 }
 
-.filters-button {
-    display: flex;
-    column-gap: 30px;
+#filtres {
+    display: flex
 }
 
 /*  */
@@ -471,6 +471,11 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         padding: 0 50px;
     }
 
+    #container-filters {
+        width: 100%;
+        row-gap: 15px;
+    }
+
     #container-offers {
         width: 100%;
         flex-direction: column;
@@ -534,7 +539,7 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
 
 @media screen and (max-width: 767.98px) {
     #container {
-        width: 100%;
+        max-width: 375px;
         padding: 0;
     }
 
@@ -574,15 +579,16 @@ by using values with higher precision. ==> doc. s/ https://getbootstrap.com/docs
         ;
     }
 
-    #container-filters {
+    #filtres {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 17px;
     }
 
-    .filters-button {
-        gap: 14px;
+    #container-filters {
+
+        justify-content: space-between;
     }
+
+
 
     #container-filters p {
         margin: 0;
